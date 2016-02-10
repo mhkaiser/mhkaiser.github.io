@@ -79,10 +79,6 @@ a {
 	margin: 0;
 	line-height: 1.15;
 	font-weight: 700px;
-	-moz-transition: all .4s;
-    -o-transition: all .4s;
-    -webkit-transition: all .4s;
-    transition: all .4s;
 
 	-moz-font-feature-settings: "liga=1, dlig=1";
     -ms-font-feature-settings: "liga", "dlig";
