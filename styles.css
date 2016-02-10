@@ -24,11 +24,6 @@ body, html {
   height: 100%;
 }
 
-body {
-	background: #FF6759;
-	text-rendering: optimizeLegibility;
-}
-
 @font-face {
 font-family: 'questa';
     src: url('../fonts/2-Questa_Regular-webfont.eot') format('embedded-opentype'); /* IE9 + later */
@@ -36,6 +31,17 @@ font-family: 'questa';
          url('../fonts/2-Questa_Regular-webfont.woff') format('woff'),  /* Newer browsers */
          url('../fonts/2-Questa_Regular-webfont.ttf') format('truetype'), /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
          url('../fonts/2-Questa_Regular-webfont.svg#M2-Questa_Regular-webfont + regular, italic, bold') format('svg'); /*IE og iOS earlier than version 5*/
+}
+
+body {
+	background: #FF6759;
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings:"liga=1, dlig=1"; 
+    -moz-font-feature-settings:"liga", "dlig"; /* EDIT: new syntax for FF 15+ */ 
+    -ms-font-feature-settings:"liga", "dlig"; 
+    -o-font-feature-settings:"liga", "dlig"; 
+    -webkit-font-feature-settings:"liga", "dlig"; 
+    font-feature-settings:"liga", "dlig";
 }
 
 a {
