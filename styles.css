@@ -28,13 +28,13 @@ body {
 	background: #FF6759;
 }
 
-@font-face{ 
-	font-family: 'questa';
-	src: url('2-Questa_Regular-webfont.eot');
-	src: url('2-Questa_Regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('2-Questa_Regular-webfont.woff') format('woff'),
-	     url('2-Questa_Regular-webfont.ttf') format('truetype'),
-	     url('2-Questa_Regular-webfont.svg#webfont') format('svg');
+@font-face {
+font-family: 'questa';
+    src: url('../fonts/2-Questa_Regular-webfont.eot') format('embedded-opentype'); /* IE9 + later */
+    src: url('../fonts/2-Questa_Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6 to IE8  */
+         url('../fonts/2-Questa_Regular-webfont.woff') format('woff'),  /* Newer browsers */
+         url('../fonts/2-Questa_Regular-webfont.ttf') format('truetype'), /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+         url('../fonts/2-Questa_Regular-webfont.svg#M2-Questa_Regular-webfont + regular, italic, bold') format('svg'); /*IE og iOS earlier than version 5*/
 }
 
 a {
