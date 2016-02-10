@@ -24,18 +24,25 @@ body, html {
   height: 100%;
 }
 
-@font-face {
-font-family: 'questa';
-    src: url('../fonts/2-Questa_Regular-webfont.eot') format('embedded-opentype'); /* IE9 + later */
-    src: url('../fonts/2-Questa_Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6 to IE8  */
-         url('../fonts/2-Questa_Regular-webfont.woff') format('woff'),  /* Newer browsers */
-         url('../fonts/2-Questa_Regular-webfont.ttf') format('truetype'), /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
-         url('../fonts/2-Questa_Regular-webfont.svg#M2-Questa_Regular-webfont + regular, italic, bold') format('svg'); /*IE og iOS earlier than version 5*/
+@font-face{ 
+	font-family: 'questa';
+	src: url('fonts/2-Questa_Regular-webfont.eot');
+	src: url('fonts/2-Questa_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/2-Questa_Regular-webfont.woff') format('woff'),
+	     url('fonts/2-Questa_Regular-webfont.ttf') format('truetype'),
+	     url('fonts/2-Questa_Regular-webfont.svg#webfont') format('svg');
+	src: local('☺︎'),
+         url('fonts/2-Questa_Regular-webfont.otf') format('opentype');
 }
-
 body {
 	background: #FF6759;
 	text-rendering: optimizeLegibility;
+
+	-moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -webkit-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
 }
 
 a {
@@ -74,7 +81,7 @@ a {
     -o-transition: all .4s;
     -webkit-transition: all .4s;
     transition: all .4s;
-    
+
 	-moz-font-feature-settings: "liga=1, dlig=1";
     -ms-font-feature-settings: "liga", "dlig";
     -webkit-font-feature-settings: "liga", "dlig";
