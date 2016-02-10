@@ -31,8 +31,6 @@ body, html {
 	     url('fonts/2-Questa_Regular-webfont.woff') format('woff'),
 	     url('fonts/2-Questa_Regular-webfont.ttf') format('truetype'),
 	     url('fonts/2-Questa_Regular-webfont.svg#webfont') format('svg');
-	src: local('☺︎'),
-         url('fonts/2-Questa_Regular-webfont.otf') format('opentype');
 }
 body {
 	background: #FF6759;
