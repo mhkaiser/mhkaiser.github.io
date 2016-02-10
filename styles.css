@@ -26,6 +26,7 @@ body, html {
 
 body {
 	background: #FF6759;
+	text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -82,6 +83,7 @@ a {
   	position: relative;
   	text-decoration: none;
   	text-shadow: 3px 0px #FF6759, -3px 0px #FF6759, -3px -5px #FF6759;
+  	font-variant-ligatures: common-ligatures;
 }
 
 .main a::after {
