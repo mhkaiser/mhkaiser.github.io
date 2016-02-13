@@ -34,7 +34,7 @@ body, html {
 }
 
 body {
-	background: #FF6759;
+	background: #FF6C59;
 	text-rendering: optimizeLegibility;
 
 	-moz-font-feature-settings:"liga" 1, "dlig" 1; 
@@ -93,7 +93,7 @@ a {
 	display: inline-block;
   	position: relative;
   	text-decoration: none;
-  	text-shadow: 3px 0px #FF6759, -3px 0px #FF6759, -3px -5px #FF6759;
+  	text-shadow: 3px 0px #FF6C59, -3px 0px #FF6C59, -3px -5px #FF6C59;
   	font-variant-ligatures: common-ligatures;
 }
 
@@ -196,7 +196,7 @@ a {
 	}
 
 	.main a{
-  		text-shadow: 2px 0px #FF6759, -2px 0px #FF6759, -2px -4px #FF6759, -2px -5px #FF6759;
+  		text-shadow: 2px 0px #FF6C59, -2px 0px #FF6C59, -2px -4px #FF6C59, -2px -5px #FF6C59;
 	}
 }
 
@@ -221,7 +221,7 @@ a {
 	}
 
 	.main a{
-  		text-shadow: 2px 0px #FF6759, -2px 0px #FF6759, -2px -3px #FF6759;
+  		text-shadow: 2px 0px #FF6C59, -2px 0px #FF6C59, -2px -3px #FF6C59;
 	}
 }
 
@@ -318,7 +318,7 @@ a {
 	}
 
 	.main a{
-  		text-shadow: 1px 0px #FF6759, -1px 0px #FF6759, -1px -2px #FF6759, -1px -3px #FF6759;
+  		text-shadow: 1px 0px #FF6C59, -1px 0px #FF6C59, -1px -2px #FF6C59, -1px -3px #FF6C59;
 	}
 
 }
