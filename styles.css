@@ -196,7 +196,7 @@ a {
 	}
 
 	.main a{
-  		text-shadow: 2px 0px #FF6759, -2px 0px #FF6759, -2px -5px #FF6759;
+  		text-shadow: 2px 0px #FF6759, -2px 0px #FF6759, -2px -4px #FF6759, -2px -5px #FF6759;
 	}
 }
 
