@@ -349,15 +349,15 @@ a {
 
 }
 
-@media (max-width: 390px) {
+@media (max-width: 360px) {
 
 	.wrapper{
     	min-height: 540px;
 	}
 
 	.content{
-		width: 220px;
-		margin: 30px;
+		width: 240px;
+		margin: 50px 30px 30px 30px;
 	}
 
 	.links{
@@ -366,7 +366,7 @@ a {
 	}
 
 	.main{
-		font-size: 26px;
+		font-size: 28px;
 	}
 
 }
