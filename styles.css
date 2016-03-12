@@ -24,35 +24,24 @@ body, html {
   height: 100%;
 }
 
-@font-face{ 
-	font-family: 'questa';
-	src: url('fonts/2-Questa_Regular-webfont.eot');
-	src: url('fonts/2-Questa_Regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/2-Questa_Regular-webfont.woff') format('woff'),
-	     url('fonts/2-Questa_Regular-webfont.ttf') format('truetype'),
-	     url('fonts/2-Questa_Regular-webfont.svg#webfont') format('svg');
-}
-
 body {
 	background: #fff;
 	text-rendering: optimizeLegibility;
-
-	-moz-font-feature-settings:"liga" 1, "dlig" 1; 
-	-ms-font-feature-settings:"liga" 1, "dlig" 1; 
-	-o-font-feature-settings:"liga" 1, "dlig" 1; 
-	-webkit-font-feature-settings:"liga" 1, "dlig" 1; 
-	font-feature-settings:"liga" 1, "dlig" 1;
+	font-variant-ligatures: common-ligatures;
+	-moz-font-feature-settings: "liga", "clig";
+	-webkit-font-feature-settings: "liga", "clig";
+	font-feature-settings: "liga", "clig";
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     cursor: default;
 
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none;   /* Chrome/Safari/Opera */
-	-khtml-user-select: none;    /* Konqueror */
-	-moz-user-select: none;      /* Firefox */
-	-ms-user-select: none;       /* IE/Edge */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none; 
 }
 
@@ -84,17 +73,11 @@ a {
 
 .main{
 	font-size: 58px;
-	font-family: 'questa', Arial, sans-serif;
+	font-family: 'questaregular', Arial, sans-serif;
 	color: #555;
 	margin: 0;
 	line-height: 1.15;
 	font-weight: 700px;
-
-	-moz-font-feature-settings: "liga=1, dlig=1";
-    -ms-font-feature-settings: "liga", "dlig";
-    -webkit-font-feature-settings: "liga", "dlig";
-    -o-font-feature-settings: "liga", "dlig";
-    font-feature-settings: "liga", "dlig";
 }
 
 .main a{
@@ -102,8 +85,7 @@ a {
 	display: inline-block;
   	position: relative;
   	text-decoration: none;
-  	text-shadow: 2px 0px #fff, -2px 0px #fff, -2px -5px #fff, -2px -4px #fff;;
-  	font-variant-ligatures: common-ligatures;
+  	text-shadow: 2px 0px #fff, -2px 0px #fff, -2px -5px #fff, -2px -4px #fff;
 }
 
 .main a::after {
@@ -134,7 +116,7 @@ a {
 	letter-spacing: 2px;
 	position: absolute;
 	top: 5px;
-	right: 5px;
+	left: 62px;
 }
 
 .links{
@@ -233,6 +215,10 @@ a {
 		margin: 70px 70px 70px 55px;
 	}
 
+	.name{
+		left: 57px;
+	}
+
 	.links{
 		bottom: 55px;
 		left: 55px;
@@ -256,6 +242,10 @@ a {
 	.content{
 		width: 650px;
 			margin: 50px 40px 40px 40px;
+	}
+
+	.name{
+		left: 42px;
 	}
 
 	.links{
@@ -283,6 +273,10 @@ a {
 	.content{
 		width: 560px;
 		margin: 50px 40px 40px 30px;
+	}
+
+	.name{
+		left: 32px;
 	}
 
 	.links{
